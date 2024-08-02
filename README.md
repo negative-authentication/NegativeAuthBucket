@@ -30,7 +30,7 @@ Template bucket for [Scoop](https://scoop.sh), the Windows command-line installe
 After manifests have been committed and pushed, run the following:
 
 ```pwsh
-scoop bucket add <bucketname> https://github.com/<username>/<bucketname>
+scoop bucket add NegativeAuthBucket https://github.com/negative-authentication/NegativeAuthBucket
 scoop install <bucketname>/<manifestname>
 ```
 
