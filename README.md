@@ -31,7 +31,7 @@ After manifests have been committed and pushed, run the following:
 
 ```pwsh
 scoop bucket add NegativeAuthBucket https://github.com/negative-authentication/NegativeAuthBucket
-scoop install <bucketname>/<manifestname>
+scoop install NegativeAuthBucket/<manifestname>
 ```
 
 ## How do I contribute new manifests?
