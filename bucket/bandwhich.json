@@ -1,23 +1,15 @@
 {
-    "version": "0.22.2",
+    "version": "0.23.0",
     "description": "Bandwhich is a simple CLI utility for tracking bandwidth utilization by process, connection, and remote IP/hostname.",
     "homepage": "https://github.com/imsnif/bandwhich",
     "license": "MIT",
-    "url": "https://github.com/imsnif/bandwhich/releases/download/v0.22.2/bandwhich-v0.22.2-x86_64-pc-windows-msvc.zip",
-    "hash": "sha256:cca79afa7bac580d01d4ebbd1c8c85a86591e1392e466896f795aa63f0377fbe",
+    "url": "https://github.com/imsnif/bandwhich/releases/download/v0.23.0/bandwhich-v0.23.0-x86_64-pc-windows-msvc.zip",
+    "hash": "ecb56263c99091caf2cc6480f56970630637305894428fb69520dacaea027f99",
     "bin": "bandwhich.exe",
-    "pre_install": [
-        "echo Preparing to install bandwhich..."
-    ],
-    "post_install": [
-        "echo bandwhich has been installed successfully!"
-    ],
-    "pre_uninstall": [
-        "echo Preparing to uninstall bandwhich..."
-    ],
-    "post_uninstall": [
-        "echo bandwhich has been uninstalled successfully!"
-    ],
+    "pre_install": "echo Preparing to install bandwhich...",
+    "post_install": "echo bandwhich has been installed successfully!",
+    "pre_uninstall": "echo Preparing to uninstall bandwhich...",
+    "post_uninstall": "echo bandwhich has been uninstalled successfully!",
     "checkver": {
         "github": "https://github.com/imsnif/bandwhich",
         "regex": "/releases/tag/v([\\d.]+)"
